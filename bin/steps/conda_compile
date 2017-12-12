@@ -21,6 +21,8 @@ fi
 if [ -f conda-requirements.txt ]; then
     puts-step "Installing dependencies using Conda"
     conda install --file conda-requirements.txt --yes | indent
+    puts-step "Cleaning up"
+    conda clean -a | indent
 fi
 
 if [ -f requirements.txt ]; then
