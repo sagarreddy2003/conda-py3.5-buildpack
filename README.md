@@ -23,4 +23,4 @@ have a lot of incompatibilities with libraries as they use the latest miniconda
 installer, which uses Python 3.6. A lot of libraries need python 3.5, and hence, I made this
 buildpack, for those who need python 3.5 and conda support.
 
-Live Chill
+semicolon out;
